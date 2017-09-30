@@ -1,0 +1,15 @@
+spring:
+  jpa:
+    show-sql: true
+    database: mysql
+    hibernate:
+      ddl-auto: none
+  redis:
+    host: localhost
+    password: 123456
+    port: 6379
+    pool:
+      max-active: -1
+      max-idle: 10
+      min-idle: 0
+    timeout: 3000
